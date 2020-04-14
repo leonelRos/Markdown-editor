@@ -11,4 +11,4 @@ window.onload = function() {
     };
     pad.addEventListener('input', convertAreaTextToMarkdown);
     convertAreaTextToMarkdown();
-}
+};

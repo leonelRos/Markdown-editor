@@ -11,6 +11,10 @@ app.use(express.static(__dirname + '/public'))
 app.get('/', function(req,res) {
     res.render('pad')
 })
+// app.get('/:id', function(req,res) {
+//     res.render('pad')
+// })
+
 
 //port listening in 3000
 app.listen(3000);
